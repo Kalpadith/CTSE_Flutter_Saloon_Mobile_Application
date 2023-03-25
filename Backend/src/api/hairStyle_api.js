@@ -1,7 +1,9 @@
+//imports 
 const express = require('express');
 const router = express.Router();
 const HairStyleController = require('../controller/hairStyle_controller');
 
+//define the api endpoints
 module.exports = function (){
     router.get('/', HairStyleController.getAllHairStyles);
     router.post('/create', HairStyleController.createHairStyle);
