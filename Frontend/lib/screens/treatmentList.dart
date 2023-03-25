@@ -249,7 +249,7 @@ class _TreatmentListState extends State<TreatmentList> {
                                               animType: AnimType.TOPSLIDE,
                                               showCloseIcon: false,
                                               title: 'Warning',
-                                              desc: 'Are your sure ?',
+                                              desc: 'Are your sure on deleting?',
                                               btnCancelOnPress: () {},
                                               onDismissCallback: (type) {
                                                 debugPrint(
